@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:64414/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:64414/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_GetSpacecraftData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSpacecraftData" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetSpacecraftData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSpacecraftDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SendCommandToSpacecraft_InputMessage">
+    <wsdl:part name="parameters" element="tns:SendCommandToSpacecraft" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SendCommandToSpacecraft_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SendCommandToSpacecraftResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_getFlightDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:getFlightDetails" />
+  </wsdl:message>
+  <wsdl:message name="IService1_getFlightDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getFlightDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_TelemetryDataFromLaunchVehicle_InputMessage">
+    <wsdl:part name="parameters" element="tns:TelemetryDataFromLaunchVehicle" />
+  </wsdl:message>
+  <wsdl:message name="IService1_TelemetryDataFromLaunchVehicle_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TelemetryDataFromLaunchVehicleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_TelemetryDataFromPayload_InputMessage">
+    <wsdl:part name="parameters" element="tns:TelemetryDataFromPayload" />
+  </wsdl:message>
+  <wsdl:message name="IService1_TelemetryDataFromPayload_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TelemetryDataFromPayloadResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="GetSpacecraftData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetSpacecraftData" message="tns:IService1_GetSpacecraftData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetSpacecraftDataResponse" message="tns:IService1_GetSpacecraftData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SendCommandToSpacecraft">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SendCommandToSpacecraft" message="tns:IService1_SendCommandToSpacecraft_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SendCommandToSpacecraftResponse" message="tns:IService1_SendCommandToSpacecraft_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getFlightDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/getFlightDetails" message="tns:IService1_getFlightDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/getFlightDetailsResponse" message="tns:IService1_getFlightDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TelemetryDataFromLaunchVehicle">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/TelemetryDataFromLaunchVehicle" message="tns:IService1_TelemetryDataFromLaunchVehicle_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/TelemetryDataFromLaunchVehicleResponse" message="tns:IService1_TelemetryDataFromLaunchVehicle_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TelemetryDataFromPayload">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/TelemetryDataFromPayload" message="tns:IService1_TelemetryDataFromPayload_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/TelemetryDataFromPayloadResponse" message="tns:IService1_TelemetryDataFromPayload_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetSpacecraftData">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetSpacecraftData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendCommandToSpacecraft">
+      <soap:operation soapAction="http://tempuri.org/IService1/SendCommandToSpacecraft" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getFlightDetails">
+      <soap:operation soapAction="http://tempuri.org/IService1/getFlightDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TelemetryDataFromLaunchVehicle">
+      <soap:operation soapAction="http://tempuri.org/IService1/TelemetryDataFromLaunchVehicle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TelemetryDataFromPayload">
+      <soap:operation soapAction="http://tempuri.org/IService1/TelemetryDataFromPayload" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:64414/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

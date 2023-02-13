@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <payloads>
+    <payload>
+      <id>32365</id>
+      <name>SPY-PAYLOAD</name>
+      <type>Spy</type>
+      <orbit>1200</orbit>
+      <deployed>true</deployed>
+      <createdDate>02-13-2023 16:37:44</createdDate>
+    </payload>
+    <payload>
+      <id>15362</id>
+      <name>G-PAY</name>
+      <type>Communication</type>
+      <orbit>1200</orbit>
+      <deployed>true</deployed>
+      <createdDate>02-13-2023 16:38:25</createdDate>
+    </payload>
+    <payload>
+      <id>62543</id>
+      <name>BIRD-11</name>
+      <type>Scientific</type>
+      <orbit>1200</orbit>
+      <deployed>true</deployed>
+      <createdDate>02-13-2023 16:40:56</createdDate>
+    </payload>
+  </payloads>
+</Root>

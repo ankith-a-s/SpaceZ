@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:64414/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/System.Xml.Linq" />
+  <xs:element name="GetPayloadTelemetryData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="payloadId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPayloadTelemetryDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/System.Xml.Linq" minOccurs="0" name="GetPayloadTelemetryDataResult" nillable="true" type="q1:ArrayOfXElement" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPayloadProcessedData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="payloadId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPayloadProcessedDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/System.Xml.Linq" minOccurs="0" name="GetPayloadProcessedDataResult" nillable="true" type="q2:ArrayOfXElement" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLaunchVehicleTelemetryData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="launchVehicleId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLaunchVehicleTelemetryDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/System.Xml.Linq" minOccurs="0" name="GetLaunchVehicleTelemetryDataResult" nillable="true" type="q3:ArrayOfXElement" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLaunchVehicleData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="launchVehicleId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLaunchVehicleDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetLaunchVehicleDataResult" nillable="true">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:any minOccurs="0" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPayloadData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="payloadId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPayloadDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetPayloadDataResult" nillable="true">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:any minOccurs="0" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllLaunchVehicleData">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllLaunchVehicleDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/System.Xml.Linq" minOccurs="0" name="GetAllLaunchVehicleDataResult" nillable="true" type="q4:ArrayOfXElement" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="launchSpacecraft">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="orbit" type="xs:int" />
+        <xs:element minOccurs="0" name="payloadName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="payloadType" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="launchSpacecraftResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="launchSpacecraftResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="receiveCommandFromLaunchVehicle">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="launchVehicleId" type="xs:int" />
+        <xs:element minOccurs="0" name="command" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="payloadData" nillable="true">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:any minOccurs="0" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="receiveCommandFromLaunchVehicleResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="receiveCommandFromPayload">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="payloadId" type="xs:int" />
+        <xs:element minOccurs="0" name="command" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="payloadData" nillable="true">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:any minOccurs="0" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="receiveCommandFromPayloadResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

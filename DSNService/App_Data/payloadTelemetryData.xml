@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <payloadTelemetries>
+    <payloadTelemetry xmlns="">
+      <altitude>1200</altitude>
+      <latitude>58.92</latitude>
+      <longitude>117.84</longitude>
+      <temperature>848</temperature>
+      <payloadId>15362</payloadId>
+      <createdDate>02-13-2023 16:39:09</createdDate>
+    </payloadTelemetry>
+    <payloadTelemetry xmlns="">
+      <altitude>1200</altitude>
+      <latitude>-44.52</latitude>
+      <longitude>-89.05</longitude>
+      <temperature>675</temperature>
+      <payloadId>15362</payloadId>
+      <createdDate>02-13-2023 16:39:10</createdDate>
+    </payloadTelemetry>
+    <payloadTelemetry xmlns="">
+      <altitude>1200</altitude>
+      <latitude>2.58</latitude>
+      <longitude>5.16</longitude>
+      <temperature>754</temperature>
+      <payloadId>15362</payloadId>
+      <createdDate>02-13-2023 16:39:11</createdDate>
+    </payloadTelemetry>
+    <payloadTelemetry xmlns="">
+      <altitude>1200</altitude>
+      <latitude>-36.28</latitude>
+      <longitude>-72.55</longitude>
+      <temperature>689</temperature>
+      <payloadId>15362</payloadId>
+      <createdDate>02-13-2023 16:39:12</createdDate>
+    </payloadTelemetry>
+    <payloadTelemetry xmlns="">
+      <altitude>1200</altitude>
+      <latitude>10.83</latitude>
+      <longitude>21.66</longitude>
+      <temperature>768</temperature>
+      <payloadId>15362</payloadId>
+      <createdDate>02-13-2023 16:39:13</createdDate>
+    </payloadTelemetry>
+    <payloadTelemetry xmlns="">
+      <altitude>1200</altitude>
+      <latitude>87.39</latitude>
+      <longitude>174.77</longitude>
+      <temperature>895</temperature>
+      <payloadId>15362</payloadId>
+      <createdDate>02-13-2023 16:39:14</createdDate>
+    </payloadTelemetry>
+    <payloadTelemetry xmlns="">
+      <altitude>1200</altitude>
+      <latitude>-16.06</latitude>
+      <longitude>-32.12</longitude>
+      <temperature>723</temperature>
+      <payloadId>15362</payloadId>
+      <createdDate>02-13-2023 16:39:15</createdDate>
+    </payloadTelemetry>
+    <payloadTelemetry xmlns="">
+      <altitude>1200</altitude>
+      <latitude>60.5</latitude>
+      <longitude>121</longitude>
+      <temperature>850</temperature>
+      <payloadId>15362</payloadId>
+      <createdDate>02-13-2023 16:39:16</createdDate>
+    </payloadTelemetry>
+    <payloadTelemetry xmlns="">
+      <altitude>1200</altitude>
+      <latitude>-42.95</latitude>
+      <longitude>-85.89</longitude>
+      <temperature>678</temperature>
+      <payloadId>15362</payloadId>
+      <createdDate>02-13-2023 16:39:17</createdDate>
+    </payloadTelemetry>
+    <payloadTelemetry xmlns="">
+      <altitude>1200</altitude>
+      <latitude>-81.8</latitude>
+      <longitude>-163.61</longitude>
+      <temperature>613</temperature>
+      <payloadId>15362</payloadId>
+      <createdDate>02-13-2023 16:39:18</createdDate>
+    </payloadTelemetry>
+    <payloadTelemetry xmlns="">
+      <altitude>1200</altitude>
+      <latitude>59.34</latitude>
+      <longitude>118.68</longitude>
+      <temperature>848</temperature>
+      <payloadId>15362</payloadId>
+      <createdDate>02-13-2023 16:39:19</createdDate>
+    </payloadTelemetry>
+    <payloadTelemetry xmlns="">
+      <altitude>1200</altitude>
+      <latitude>68.46</latitude>
+      <longitude>136.91</longitude>
+      <temperature>864</temperature>
+      <payloadId>32365</payloadId>
+      <createdDate>02-13-2023 16:39:58</createdDate>
+    </payloadTelemetry>
+    <payloadTelemetry xmlns="">
+      <altitude>1200</altitude>
+      <latitude>-34.99</latitude>
+      <longitude>-69.97</longitude>
+      <temperature>691</temperature>
+      <payloadId>32365</payloadId>
+      <createdDate>02-13-2023 16:39:59</createdDate>
+    </payloadTelemetry>
+    <payloadTelemetry xmlns="">
+      <altitude>1200</altitude>
+      <latitude>-73.85</latitude>
+      <longitude>-147.69</longitude>
+      <temperature>626</temperature>
+      <payloadId>32365</payloadId>
+      <createdDate>02-13-2023 16:40:00</createdDate>
+    </payloadTelemetry>
+    <payloadTelemetry xmlns="">
+      <altitude>1200</altitude>
+      <latitude>2.71</latitude>
+      <longitude>5.42</longitude>
+      <temperature>754</temperature>
+      <payloadId>32365</payloadId>
+      <createdDate>02-13-2023 16:40:01</createdDate>
+    </payloadTelemetry>
+    <payloadTelemetry xmlns="">
+      <altitude>1200</altitude>
+      <latitude>-36.15</latitude>
+      <longitude>-72.3</longitude>
+      <temperature>689</temperature>
+      <payloadId>32365</payloadId>
+      <createdDate>02-13-2023 16:40:02</createdDate>
+    </payloadTelemetry>
+    <payloadTelemetry xmlns="">
+      <altitude>1200</altitude>
+      <latitude>40.41</latitude>
+      <longitude>80.82</longitude>
+      <temperature>817</temperature>
+      <payloadId>32365</payloadId>
+      <createdDate>02-13-2023 16:40:03</createdDate>
+    </payloadTelemetry>
+    <payloadTelemetry xmlns="">
+      <altitude>1200</altitude>
+      <latitude>-63.03</latitude>
+      <longitude>-126.07</longitude>
+      <temperature>644</temperature>
+      <payloadId>32365</payloadId>
+      <createdDate>02-13-2023 16:40:04</createdDate>
+    </payloadTelemetry>
+    <payloadTelemetry xmlns="">
+      <altitude>1200</altitude>
+      <latitude>-15.93</latitude>
+      <longitude>-31.86</longitude>
+      <temperature>723</temperature>
+      <payloadId>32365</payloadId>
+      <createdDate>02-13-2023 16:40:05</createdDate>
+    </payloadTelemetry>
+    <payloadTelemetry xmlns="">
+      <altitude>1200</altitude>
+      <latitude>60.63</latitude>
+      <longitude>121.25</longitude>
+      <temperature>851</temperature>
+      <payloadId>32365</payloadId>
+      <createdDate>02-13-2023 16:40:06</createdDate>
+    </payloadTelemetry>
+    <payloadTelemetry xmlns="">
+      <altitude>1200</altitude>
+      <latitude>21.77</latitude>
+      <longitude>43.54</longitude>
+      <temperature>786</temperature>
+      <payloadId>32365</payloadId>
+      <createdDate>02-13-2023 16:40:07</createdDate>
+    </payloadTelemetry>
+    <payloadTelemetry xmlns="">
+      <altitude>1200</altitude>
+      <latitude>-22.83</latitude>
+      <longitude>-45.66</longitude>
+      <temperature>711</temperature>
+      <payloadId>62543</payloadId>
+      <createdDate>02-13-2023 16:42:23</createdDate>
+    </payloadTelemetry>
+    <payloadTelemetry xmlns="">
+      <altitude>1200</altitude>
+      <latitude>53.72</latitude>
+      <longitude>107.45</longitude>
+      <temperature>839</temperature>
+      <payloadId>62543</payloadId>
+      <createdDate>02-13-2023 16:42:24</createdDate>
+    </payloadTelemetry>
+    <payloadTelemetry xmlns="">
+      <altitude>1200</altitude>
+      <latitude>-49.72</latitude>
+      <longitude>-99.44</longitude>
+      <temperature>667</temperature>
+      <payloadId>62543</payloadId>
+      <createdDate>02-13-2023 16:42:25</createdDate>
+    </payloadTelemetry>
+    <payloadTelemetry xmlns="">
+      <altitude>1200</altitude>
+      <latitude>-88.58</latitude>
+      <longitude>-177.15</longitude>
+      <temperature>602</temperature>
+      <payloadId>62543</payloadId>
+      <createdDate>02-13-2023 16:42:26</createdDate>
+    </payloadTelemetry>
+    <payloadTelemetry xmlns="">
+      <altitude>1200</altitude>
+      <latitude>-12.02</latitude>
+      <longitude>-24.04</longitude>
+      <temperature>729</temperature>
+      <payloadId>62543</payloadId>
+      <createdDate>02-13-2023 16:42:27</createdDate>
+    </payloadTelemetry>
+    <payloadTelemetry xmlns="">
+      <altitude>1200</altitude>
+      <latitude>64.54</latitude>
+      <longitude>129.07</longitude>
+      <temperature>857</temperature>
+      <payloadId>62543</payloadId>
+      <createdDate>02-13-2023 16:42:28</createdDate>
+    </payloadTelemetry>
+    <payloadTelemetry xmlns="">
+      <altitude>1200</altitude>
+      <latitude>-68.36</latitude>
+      <longitude>-136.72</longitude>
+      <temperature>636</temperature>
+      <payloadId>62543</payloadId>
+      <createdDate>02-13-2023 16:42:29</createdDate>
+    </payloadTelemetry>
+    <payloadTelemetry xmlns="">
+      <altitude>1200</altitude>
+      <latitude>8.2</latitude>
+      <longitude>16.39</longitude>
+      <temperature>763</temperature>
+      <payloadId>62543</payloadId>
+      <createdDate>02-13-2023 16:42:30</createdDate>
+    </payloadTelemetry>
+  </payloadTelemetries>
+</Root>

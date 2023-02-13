@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <launchVehicles>
+    <launchVehicle>
+      <id>32365</id>
+      <name>Animal-100</name>
+      <orbit>1200</orbit>
+      <status>active</status>
+      <payloadId>32365</payloadId>
+      <createdDate>02-13-2023 16:37:44</createdDate>
+    </launchVehicle>
+    <launchVehicle>
+      <id>15362</id>
+      <name>Tiger-20</name>
+      <orbit>1200</orbit>
+      <status>active</status>
+      <payloadId>15362</payloadId>
+      <createdDate>02-13-2023 16:38:25</createdDate>
+    </launchVehicle>
+    <launchVehicle>
+      <id>62543</id>
+      <name>Eagle-20</name>
+      <orbit>1200</orbit>
+      <status>active</status>
+      <payloadId>62543</payloadId>
+      <createdDate>02-13-2023 16:40:56</createdDate>
+    </launchVehicle>
+  </launchVehicles>
+</Root>
